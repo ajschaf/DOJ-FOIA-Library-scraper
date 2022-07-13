@@ -19,7 +19,7 @@ from ratelimit import limits, sleep_and_retry
 
 SLACK_WEBHOOK = os.environ.get("SLACK_WEBHOOK")
 DOC_CUTOFF = 10
-MAX_NEW_DOCS = 1000
+MAX_NEW_DOCS = 2500
 
 
 class Document:
