@@ -36,4 +36,4 @@ properties:
   dry_run:
     type: boolean
     description: Do not upload any documents or store any scraping data
-    default: false
+    default: true
